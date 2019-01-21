@@ -4,12 +4,7 @@ div div {background:#A4CA39;     position: relative;}
     height: 404px; width: 334px;
     margin: 100px auto;
 }
-p {
-    z-index: 1;
-    color: palevioletred;
-    position: fixed;
-    top: 170px; left: 650px;
-}
+
 
 .head {
     z-index: 2;
@@ -17,6 +12,7 @@ p {
     border-radius: 110px 110px 0 0;
     transition: all 0.1s ease-in;
 }
+
 
 .l_eye, .r_eye{
     background: #fff;
@@ -50,6 +46,15 @@ p {
     width: 220px; height: 250px;
     top: 20px;
     border-radius: 0 0 30px 30px;
+    position: relative;
+}
+.love {
+
+    z-index: 1;
+    color: palevioletred;
+    position: absolute;
+    top: -50px; left: 140px;
+
 }
 .l_arm, .r_arm, .l_leg, .r_leg{
     width: 25px;
